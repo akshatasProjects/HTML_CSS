@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner img{
+  height: 70vh;
+  width: 100vw;
+  background-size: contain;
+  overflow: hidden;
+}
+
+.navbar{
+  background-color: #d1a2a2;
+  height: 50px;
+}
+
+.navbar li{
+  list-style: none;
+ 
+}
+
+.navbar li a{
+  text-decoration: none;
+  float: left;
+  padding: 15px;
+  font-size: 20px;
+  color: black;
+}
+
+
+.img-container{
+  display: flex;
+  flex-direction: row;
+  clear: both;
+  overflow: hidden;
+}
+
+.img-container img{
+  width: 33%; /* three containers (use 25% for four, and 50% for two, etc) */
+  padding: 5px;
+  
+}
